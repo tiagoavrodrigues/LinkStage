@@ -14,6 +14,6 @@ enum class UserRole {
     @SerialName("SUPERVISOR")
     SUPERVISOR,
 
-    @SerialName("INSTITUITION")
-    INSTITUITION
+    @SerialName("INSTITUTION")
+    INSTITUTION
 }

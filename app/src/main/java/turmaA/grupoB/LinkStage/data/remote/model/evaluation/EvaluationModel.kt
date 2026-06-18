@@ -21,7 +21,7 @@ data class EvaluationModel(
     val comment: String? = null,
 
     @SerialName("created_at")
-    val creaatedAt: String,
+    val createdAt: String,
 
     @SerialName("updated_at")
     val updatedAt: String

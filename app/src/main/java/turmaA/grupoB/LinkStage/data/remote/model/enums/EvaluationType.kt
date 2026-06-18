@@ -6,7 +6,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 enum class EvaluationType {
     @SerialName("INSTITUTION")
-    INSTITUITION,
+    INSTITUTION,
 
     @SerialName("SUPERVISOR")
     SUPERVISOR

@@ -21,7 +21,7 @@ data class ProfileModel(
     val rgpdConsent: Boolean = false,
 
     @SerialName("rgpd_consent_at")
-    val rpgdConsentAt: String? = null,
+    val rgpdConsentAt: String? = null,
 
     @SerialName("created_at")
     val createdAt: String,

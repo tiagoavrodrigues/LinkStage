@@ -9,7 +9,7 @@ import turmaA.grupoB.LinkStage.data.remote.model.enums.ReportStatus
 data class FinalReportModel(
     val id: String,
 
-    @SerialName("internshi_id")
+    @SerialName("internship_id")
     val internshipId: String,
 
     @SerialName("student_id")

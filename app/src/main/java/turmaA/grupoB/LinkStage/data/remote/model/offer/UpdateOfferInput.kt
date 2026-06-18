@@ -7,6 +7,7 @@ import turmaA.grupoB.LinkStage.data.remote.model.enums.OfferStatus
 @Serializable
 data class UpdateOfferInput(
     val title: String? = null,
+    val description: String? = null,
     val area: String? = null,
     val location: String? = null,
     val salary: Double? = null,

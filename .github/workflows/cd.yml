@@ -1,0 +1,77 @@
+name: Release APK and AAB to GitHub
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      RELEASE_VERSION: v1.0.${{ github.run_number }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+          cache: gradle
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Create local.properties
+        run: |
+          {
+            echo "SUPABASE_URL=${SUPABASE_URL}"
+            echo "SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}"
+          } > local.properties
+
+      - name: Build release AAB
+        run: ./gradlew :app:bundleRelease
+
+      - name: Build release APK
+        run: ./gradlew :app:assembleRelease
+
+      - name: Collect release files
+        run: |
+          mkdir -p release
+
+          if [ -f app/build/outputs/bundle/release/app-release.aab ]; then
+            cp app/build/outputs/bundle/release/app-release.aab release/LinkStage-${RELEASE_VERSION}.aab
+          fi
+
+          if [ -f app/build/outputs/apk/release/app-release.apk ]; then
+            cp app/build/outputs/apk/release/app-release.apk release/LinkStage-${RELEASE_VERSION}.apk
+          fi
+
+          if [ -f app/build/outputs/apk/release/app-release-unsigned.apk ]; then
+            cp app/build/outputs/apk/release/app-release-unsigned.apk release/LinkStage-${RELEASE_VERSION}-unsigned.apk
+          fi
+
+          ls -al release
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.RELEASE_VERSION }}
+          target_commitish: ${{ github.sha }}
+          name: LinkStage ${{ env.RELEASE_VERSION }}
+          body: |
+            Release interna da aplicação LinkStage.
+
+            Artefactos disponíveis para download:
+            - LinkStage APK
+            - LinkStage AAB
+          files: release/*

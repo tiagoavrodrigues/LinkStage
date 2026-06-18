@@ -13,5 +13,7 @@ data class ActivityLogEntity(
     val hours: Double? = null,
     val type: String? = null,
     val location: String? = null,
-    val createdAt: String
+    val attachmentUrl: String? = null,
+    val createdAt: String,
+    val pendingSync: Boolean = false,
 )

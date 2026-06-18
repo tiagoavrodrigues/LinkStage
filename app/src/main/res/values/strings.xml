@@ -1,3 +1,1161 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">LinkStage</string>
+
+    <!-- ==================== INTRO / ONBOARDING ==================== -->
+    <string name="intro_start">Start</string>
+    <string name="intro_slide1_title">Your first step into the world of work</string>
+    <string name="intro_slide1_description">Connect with institutions and companies to find the internship that will launch your career.</string>
+    <string name="intro_slide2_title">Manage your progress</string>
+    <string name="intro_slide2_description">Track applications, log activities, and stay focused on your goals.</string>
+    <string name="intro_slide3_title">Direct communication</string>
+    <string name="intro_slide3_description">Seamless communication between all stakeholders in the internship process.</string>
+    <string name="intro_slide4_title">Achieve the goal</string>
+    <string name="intro_slide4_description">Complete milestones, gain recognition, and enter the labor market with confidence.</string>
+    <string name="intro_slide1_highlight"> starts here</string>
+    <string name="intro_slide2_highlight"> stay on track</string>
+    <string name="intro_slide3_highlight"> stay connected</string>
+    <string name="intro_slide4_highlight"> with confidence</string>
+    <string name="intro_skip">Skip</string>
+
+    <!-- ==================== LOGIN ==================== -->
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Log in to your account to continue</string>
+    <string name="login_email_label">Email Address</string>
+    <string name="login_email_placeholder">Enter your email</string>
+    <string name="login_email_error">Invalid email. Use the format name@domain.com</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_password_placeholder">Enter your password</string>
+    <string name="login_forgot_password">Forgot password?</string>
+    <string name="login_button">Log In</string>
+    <string name="login_no_account">Don\'t have an account?</string>
+    <string name="login_register_link">Register</string>
+    <string name="login_loading">Signing in…</string>
+
+    <!-- ==================== REGISTER ==================== -->
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Select your profile to start registration</string>
+    <string name="register_profile_student">Student</string>
+    <string name="register_profile_student_f1">Access to internship offers</string>
+    <string name="register_profile_student_f2">Simplified application</string>
+    <string name="register_profile_student_f3">Activity diary</string>
+    <string name="register_profile_student_f4">Final report</string>
+    <string name="register_profile_advisor">Advisor</string>
+    <string name="register_profile_advisor_f1">Activity monitoring</string>
+    <string name="register_profile_advisor_f2">Assessment and feedback</string>
+    <string name="register_profile_advisor_f3">Student management</string>
+    <string name="register_profile_institution">Institution</string>
+    <string name="register_profile_institution_f1">Offer publication</string>
+    <string name="register_profile_institution_f2">Candidate management</string>
+    <string name="register_profile_institution_f3">Internship tracking</string>
+    <string name="register_profile_institution_f4">Assessments</string>
+    <string name="register_continue">Continue</string>
+    <string name="register_back">Back</string>
+    <string name="register_loading">Registering…</string>
+
+    <!-- REGISTER — STEP 1 DATA -->
+    <string name="register_data_step_student">Step 1 of 2 — Personal Data</string>
+    <string name="register_data_step_institution">Step 1 of 1 — Institutional Data</string>
+    <string name="register_data_tab_corporate">Corporate</string>
+    <string name="register_data_tab_school">School</string>
+    <string name="register_data_type_corporate">Corporate</string>
+    <string name="register_data_type_school">School</string>
+    <string name="register_data_name_student">Full Name</string>
+    <string name="register_data_name_student_placeholder">Enter your full name</string>
+    <string name="register_data_name_corporate">Company name</string>
+    <string name="register_data_name_corporate_placeholder">Enter the company name</string>
+    <string name="register_data_name_school">Institution name</string>
+    <string name="register_data_name_school_placeholder">Enter the institution name</string>
+    <string name="register_data_email">Institutional Email</string>
+    <string name="register_data_email_placeholder">Enter your institutional email</string>
+    <string name="register_data_email_error">Invalid email. Use the format name@domain.com</string>
+    <string name="register_data_institution">Institution</string>
+    <string name="register_data_institution_placeholder">Enter your institution</string>
+    <string name="register_data_password">Password</string>
+    <string name="register_data_password_placeholder">Create a password</string>
+    <string name="register_data_gdpr">I agree to the processing of my personal data.</string>
+    <string name="register_data_button_register">Register</string>
+    <string name="register_data_success_title">Account Created!</string>
+    <string name="register_data_success_message">Your account has been successfully created. You can now log in.</string>
+    <string name="register_data_success_ok">Ok</string>
+
+    <!-- REGISTER — STEP 2 SKILLS -->
+    <string name="register_skills_step">Step 2 of 2 — Define Skills</string>
+    <string name="register_skills_search">Search skills</string>
+    <string name="register_skills_yours">Your skills</string>
+    <string name="register_skills_empty">You haven\'t added any skills yet.</string>
+    <string name="register_skills_suggestions">Suggested skills</string>
+    <string name="register_skills_add_custom">Add custom skill</string>
+    <string name="register_skills_dialog_title">Add Skill</string>
+    <string name="register_skills_dialog_desc">Add a new technical skill or soft skill to your profile.</string>
+    <string name="register_skills_dialog_label">Skill</string>
+    <string name="register_skills_dialog_placeholder">Enter your skill here.</string>
+    <string name="register_skills_dialog_save">Save skill</string>
+    <string name="register_skills_register">Register</string>
+
+    <!-- SKILLS LIST -->
+    <string name="skill_python">Python</string>
+    <string name="skill_teamwork">Teamwork</string>
+    <string name="skill_project_management">Project Management</string>
+    <string name="skill_ai">AI</string>
+    <string name="skill_cpp">C++</string>
+    <string name="skill_curiosity">Intellectual curiosity</string>
+    <string name="skill_budget_management">Budget management</string>
+    <string name="skill_java">Java</string>
+    <string name="skill_problem_solving">Problem solving</string>
+    <string name="skill_communication">Communication</string>
+    <string name="skill_persuasive_writing">Persuasive writing</string>
+
+    <!-- ==================== FORGOT PASSWORD ==================== -->
+    <string name="forgot_password_title">Recover Password</string>
+    <string name="forgot_password_subtitle">Enter your email to receive a recovery link.</string>
+    <string name="forgot_password_send">Send Link</string>
+
+    <!-- ==================== UPDATE PASSWORD ==================== -->
+    <string name="update_password_title">Update Password</string>
+    <string name="update_password_subtitle">Enter your new password below.</string>
+    <string name="update_password_new">New Password</string>
+    <string name="update_password_confirm">Confirm Password</string>
+    <string name="update_password_mismatch">Passwords don\'t match</string>
+    <string name="update_password_button">Update Password</string>
+    <string name="update_password_success">Your password has been successfully changed. You can now log in.</string>
+
+    <!-- ==================== FORCE CHANGE PASSWORD ==================== -->
+    <string name="force_change_title">Mandatory Password Change</string>
+    <string name="force_change_subtitle">For security reasons, you must change your temporary password on your first access.</string>
+    <string name="force_change_current">Current password</string>
+    <string name="force_change_new">New password</string>
+    <string name="force_change_confirm">Confirm new password</string>
+    <string name="force_change_error_empty">This field is required.</string>
+    <string name="force_change_error_length">Password must have at least 8 characters.</string>
+    <string name="force_change_error_uppercase">Password must contain at least one uppercase letter.</string>
+    <string name="force_change_error_number">Password must contain at least one number.</string>
+    <string name="force_change_error_same">New password cannot be the same as current password.</string>
+    <string name="force_change_error_mismatch">Passwords don\'t match.</string>
+    <string name="force_change_dialog_title">Confirm password change?</string>
+    <string name="force_change_dialog_body">After confirming, your temporary password will be replaced and you can access the application.</string>
+    <string name="force_change_dialog_confirm">Confirm</string>
+    <string name="force_change_button">Confirm change</string>
+
+    <!-- ==================== PASSWORD VALIDATION ==================== -->
+    <string name="validation_number">Include a number</string>
+    <string name="validation_case">Include uppercase and lowercase</string>
+    <string name="validation_length">Minimum 8 characters</string>
+
+    <!-- ==================== NAVIGATION TABS ==================== -->
+    <string name="tab_home">Home</string>
+    <string name="tab_internships">Internships</string>
+    <string name="tab_activity">Activity</string>
+    <string name="tab_messages">Messages</string>
+    <string name="tab_settings">Settings</string>
+    <string name="tab_users">Users</string>
+    <string name="tab_institutions">Institutions</string>
+    <string name="tab_offers">Offers</string>
+    <string name="tab_students">Students</string>
+
+    <!-- ==================== COMMON ==================== -->
+    <string name="common_back">Back</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_save">Save</string>
+    <string name="common_close">Close</string>
+    <string name="common_search">Search…</string>
+    <string name="common_write_here">Write here.</string>
+    <string name="common_view_all">View all</string>
+    <string name="common_more">More</string>
+    <string name="common_in_development">Under development</string>
+    <string name="common_required_field">Required field</string>
+    <string name="common_values">values</string>
+    <string name="common_send_message">Send message</string>
+    <string name="common_remove">Remove</string>
+    <string name="common_clear">Clear</string>
+    <string name="common_send">Send</string>
+    <string name="common_more_options">More options</string>
+    <string name="common_file">file</string>
+    <string name="common_complete">Complete</string>
+    <string name="common_back_content_desc">Back</string>
+
+    <!-- COMMON — CONFIRMATION DIALOG -->
+    <string name="dialog_cancel">Cancel</string>
+
+    <!-- COMMON — PRIVACY POLICY -->
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_updated">Last updated: June 2026</string>
+
+    <!-- ==================== HOME (STUDENT) ==================== -->
+    <string name="home_greeting">Hello, %1$s</string>
+    <string name="home_welcome">Welcome back to LinkStage.</string>
+    <string name="home_debug_mode">DEBUG — Internship Mode</string>
+    <string name="home_active_internship">Active Internship</string>
+    <string name="home_internship_dates_unavailable">The internship dates are not available.</string>
+    <string name="home_view_details">View details</string>
+    <string name="home_applications_title">Application Status</string>
+    <string name="home_discover_title">Discover Opportunities</string>
+    <string name="home_discover_action">Explore</string>
+    <string name="home_discover_message">Find the ideal internship for your profile and take the next step in your career.</string>
+    <string name="home_recent_messages">Recent Messages</string>
+    <string name="home_deliveries">Upcoming deliverables</string>
+    <string name="home_result_available">Result available</string>
+    <string name="home_result_message">Your final grade is available for consultation.</string>
+    <string name="home_result_action">View result</string>
+    <string name="home_eval_result_title">Internship Result Available</string>
+    <string name="home_eval_result_message">Your final grade has been assigned. You can now check your internship result.</string>
+
+    <!-- MOCK DATA -->
+    <string name="mock_delivery_cybersec">Cyber Security Presentation</string>
+    <string name="mock_delivery_checkpoint">Checkpoint 25 project 4</string>
+
+    <!-- CHAT ROLES -->
+    <string name="chat_role_student">Student</string>
+    <string name="chat_role_project_manager">Project Manager</string>
+    <string name="chat_role_institution_advisor">Institution Advisor</string>
+    <string name="chat_role_technical_tutor">Technical Tutor</string>
+    <string name="chat_role_hr_responsible">HR Responsible</string>
+    <string name="chat_role_company_advisor">Company Advisor</string>
+
+    <!-- TIME EXPRESSIONS -->
+    <string name="time_yesterday">Yesterday</string>
+    <string name="time_days_ago">%1$sd ago</string>
+    <string name="time_now">Now</string>
+    <string name="time_tomorrow">Tomorrow</string>
+    <string name="time_in_days">In %1$s days</string>
+
+    <!-- ==================== EDIT SKILLS ==================== -->
+    <string name="edit_skills_title">Edit Skills</string>
+    <string name="edit_skills_your_skills">Your Skills</string>
+    <string name="edit_skills_other">Other Skills</string>
+    <string name="edit_skills_add">Add custom skill</string>
+    <string name="edit_skills_no_results">No results for \"%1$s\"</string>
+
+    <!-- SKILL CATEGORIES -->
+    <string name="skill_cat_tech">Technology</string>
+    <string name="skill_cat_management">Management</string>
+    <string name="skill_cat_comm">Communication</string>
+    <string name="skill_cat_interpersonal">Interpersonal</string>
+    <string name="skill_cat_culinary">Culinary</string>
+    <string name="skill_cat_design">Design</string>
+    <string name="skill_cat_mechanics">Mechanics</string>
+    <string name="skill_cat_health">Health</string>
+
+    <!-- ==================== STUDENT — DISCOVER / OFFERS ==================== -->
+    <string name="discover_title">Discover Opportunities</string>
+    <string name="discover_search">Search…</string>
+    <string name="discover_filters">Filters</string>
+    <string name="discover_published">Published</string>
+
+    <!-- FILTERS -->
+    <string name="filter_title">Filters</string>
+    <string name="filter_apply">Apply Filters</string>
+    <string name="filter_area">Activity area</string>
+    <string name="filter_location">Location</string>
+    <string name="filter_work_model">Work model</string>
+    <string name="filter_select_model">Select a model.</string>
+    <string name="filter_fulltime">Full Time</string>
+    <string name="filter_parttime">Part Time</string>
+    <string name="filter_remote">Remote</string>
+    <string name="filter_hybrid">Hybrid</string>
+    <string name="filter_duration">Duration</string>
+    <string name="filter_select_duration">Select a duration.</string>
+    <string name="filter_3months">3 Months</string>
+    <string name="filter_6months">6 Months</string>
+    <string name="filter_9months">9 Months</string>
+    <string name="filter_12months">12 Months</string>
+    <string name="filter_12months_plus">+12 Months</string>
+    <string name="filter_deadline">Deadline</string>
+    <string name="filter_1week">1 Week</string>
+    <string name="filter_2weeks">2 Weeks</string>
+    <string name="filter_1month">1 Month</string>
+    <string name="filter_no_limit">No limit</string>
+
+    <!-- OFFER DETAIL -->
+    <string name="offer_about_company">About the company</string>
+    <string name="offer_responsibilities">Responsibilities</string>
+    <string name="offer_requirements">Requirements</string>
+    <string name="offer_benefits">Benefits</string>
+    <string name="offer_apply">Apply</string>
+    <string name="offer_applied">Applied ✓</string>
+    <string name="offer_add_favorite">Add to favorites</string>
+    <string name="offer_remove_favorite">Remove from favorites</string>
+    <string name="offer_detail_title">Offer Details</string>
+    <string name="offer_confirm_apply_title">Confirm Application</string>
+    <string name="offer_confirm_apply_message">Are you sure you want to apply to \"%1$s\"?</string>
+    <string name="offer_deadline_info">Applications close in %1$d days  •  %2$d students applied</string>
+
+    <!-- ==================== STUDENT — APPLICATION ==================== -->
+    <string name="apply_title">Complete Application</string>
+    <string name="apply_step0_title">Personal Information</string>
+    <string name="apply_step0_subtitle">You can edit your information here.</string>
+    <string name="apply_step1_title">Essential Information</string>
+    <string name="apply_step1_subtitle">Complete with important information.</string>
+    <string name="apply_step2_title">Review Application</string>
+    <string name="apply_step2_subtitle">Review your data to continue.</string>
+    <string name="apply_continue">Continue</string>
+    <string name="apply_submit">Submit</string>
+    <string name="apply_submitting">Submitting application…</string>
+    <string name="apply_save_draft">Save as draft</string>
+    <string name="apply_cv_incomplete_title">Incomplete CV.</string>
+    <string name="apply_cv_incomplete_message">Add at least one skill to your CV to continue the application.</string>
+    <string name="apply_name">Full name</string>
+    <string name="apply_email">Email</string>
+    <string name="apply_phone">Phone</string>
+    <string name="apply_course">Course</string>
+    <string name="apply_institution">Institution</string>
+    <string name="apply_gpa">Current GPA (0–20)</string>
+    <string name="apply_personal_statement">Personal Statement</string>
+    <string name="apply_personal_statement_desc">Brief explanation of why you are the perfect person for the position.</string>
+    <string name="apply_skills_label">Edit Skills</string>
+    <string name="apply_skills_count">skills added</string>
+    <string name="apply_motivation_letter">Motivation Letter</string>
+    <string name="apply_select_file">Select File</string>
+    <string name="apply_file_format">PDF, DOCX up to 6 MB</string>
+    <string name="apply_review_name">Name</string>
+    <string name="apply_review_course">Course</string>
+    <string name="apply_review_gpa">GPA</string>
+    <string name="apply_review_complete">Complete</string>
+    <string name="apply_review_incomplete">Incomplete</string>
+    <string name="apply_review_not_attached">Not attached</string>
+    <string name="apply_success">Application submitted\nsuccessfully</string>
+
+    <!-- ==================== STUDENT — ACTIVITY ==================== -->
+    <string name="activity_recent">Recent Activity</string>
+    <string name="activity_detail_title">Activity Details</string>
+    <string name="activity_detail_loading">Loading activity…</string>
+    <string name="activity_detail_not_found">Activity not found.</string>
+    <string name="activity_delivery_date">Delivery Date</string>
+    <string name="activity_description">Description</string>
+    <string name="activity_requirements">Requirements</string>
+    <string name="activity_attachments">Attachments</string>
+    <string name="activity_select_files">Select Files</string>
+    <string name="activity_submit_title">Submit Activity?</string>
+    <string name="activity_submit_message">Are you sure you want to submit this activity? This action cannot be undone.</string>
+    <string name="activity_submit">Submit</string>
+    <string name="activity_submitted">Activity Submitted ✓</string>
+    <string name="activity_doc_submitted">Document submitted</string>
+    <string name="activity_doc_status">Submitted</string>
+    <string name="activity_add">Add activity</string>
+    <string name="activity_add_title">Add Activity</string>
+    <string name="activity_add_title_label">Title</string>
+    <string name="activity_add_desc_label">Brief description.</string>
+    <string name="activity_defined_by_advisor">Defined by advisor</string>
+    <string name="activity_reviewed_by">Reviewed by %1$d person(s)</string>
+    <string name="activity_start">Start:</string>
+    <string name="activity_end">End:</string>
+    <string name="activity_status_completed">Completed</string>
+    <string name="activity_status_pending">Pending</string>
+
+    <!-- APPLICATIONS -->
+    <string name="applications_active">Active applications</string>
+    <string name="applications_past">Past applications</string>
+    <string name="applications_filter_all">All</string>
+    <string name="applications_filter_pending">Pending</string>
+    <string name="applications_filter_accepted">Accepted</string>
+    <string name="applications_filter_rejected">Rejected</string>
+    <string name="applications_filter_title">Filter Applications</string>
+    <string name="applications_applied">Applied</string>
+    <string name="applications_empty">No applications found.</string>
+    <string name="applications_applied_ago">• Applied %1$s</string>
+    <string name="applications_loading">Loading applications…</string>
+
+    <!-- FINAL REPORT -->
+    <string name="report_title">Final report submission</string>
+    <string name="report_message">Your internship ends in %1$d days. Prepare and upload your final report for advisor validation.</string>
+    <string name="report_submit_title">Submit Report</string>
+    <string name="report_submit_message">Are you sure you want to submit the final report? This action cannot be undone and will mark your internship as completed.</string>
+    <string name="report_loading">Loading final report…</string>
+    <string name="report_not_found">No final report draft was found.</string>
+    <string name="report_already_submitted">The final report has already been submitted.</string>
+    <string name="report_final_grade">Final Grade</string>
+    <string name="report_out_of_20">out of 20 values</string>
+    <string name="report_view_result">View full result</string>
+
+    <!-- ==================== STUDENT — CHAT ==================== -->
+    <string name="chat_online">Online</string>
+    <string name="chat_search">Search…</string>
+    <string name="chat_menu_search">Search in conversation</string>
+    <string name="chat_menu_mute">Mute notifications</string>
+    <string name="chat_menu_unmute">Unmute notifications</string>
+    <string name="chat_menu_clear">Clear history</string>
+    <string name="chat_mute_title">Mute notifications</string>
+    <string name="chat_mute_button">Mute</string>
+    <string name="chat_mute_8hours">8 hours</string>
+    <string name="chat_mute_1week">1 week</string>
+    <string name="chat_mute_always">Always</string>
+    <string name="chat_delete_title">Delete conversation</string>
+    <string name="chat_delete_button">Delete</string>
+    <string name="chat_delete_confirm">Are you sure you want to delete the conversation with %1$s? This action cannot be undone.</string>
+    <string name="chat_input_placeholder">Type a message…</string>
+    <string name="chat_new_message">New Message</string>
+    <string name="chat_search_contacts">Search contacts…</string>
+
+    <!-- ==================== SETTINGS ==================== -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_section_config">Configuration</string>
+    <string name="settings_change_password">Change Password</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_section_version">App Version</string>
+    <string name="settings_version">V1.0.0 — Android 36 / Kotlin / Supabase</string>
+    <string name="settings_logout">Logout</string>
+    <string name="settings_logout_confirm">Are you sure you want to log out?</string>
+    <string name="settings_logout_button">Logout</string>
+    <string name="settings_change_password_title">Change Password</string>
+    <string name="settings_new_password">New Password</string>
+    <string name="settings_confirm_password">Confirm Password</string>
+    <string name="settings_update_button">Update</string>
+    <string name="settings_password_change_success">Password updated successfully.</string>
+    <string name="settings_password_change_error">Could not update password. Please try again.</string>
+    <string name="settings_save_changes">Save Changes</string>
+
+    <!-- ==================== ADMIN ==================== -->
+    <string name="admin_role">Administrator</string>
+    <string name="admin_users_title">Users</string>
+    <string name="admin_students_title">Students</string>
+    <string name="admin_mentors_title">Advisors</string>
+    <string name="admin_institutions_title">Institutions</string>
+    <string name="admin_new_students">New students</string>
+    <string name="admin_new_mentors">New advisors</string>
+    <string name="admin_new_institutions">New institutions</string>
+    <string name="admin_registered_ago">Registered %1$s ago</string>
+    <string name="admin_tab_all">All</string>
+
+    <!-- ADMIN — STUDENT DETAIL -->
+    <string name="admin_student_detail_title">Student Details</string>
+    <string name="admin_student_remove">Remove Student</string>
+    <string name="admin_student_remove_confirm">Are you sure you want to remove \"%1$s\"? This action cannot be undone.</string>
+    <string name="admin_student_active_internship">Active Internship</string>
+    <string name="admin_student_company">Company: %1$s</string>
+    <string name="admin_student_no_internship">No active internship</string>
+    <string name="admin_student_in_internship">In internship</string>
+
+    <!-- ADMIN — MENTOR DETAIL -->
+    <string name="admin_mentor_detail_title">Advisor Details</string>
+    <string name="admin_mentor_remove">Remove Advisor</string>
+    <string name="admin_mentor_remove_confirm">Are you sure you want to remove \"%1$s\"? This action cannot be undone.</string>
+    <string name="admin_mentor_information">Information</string>
+    <string name="admin_mentor_no_students">No assigned students</string>
+
+    <!-- ADMIN — INTERNSHIP DETAIL -->
+    <string name="admin_internship_detail_title">Internship Details</string>
+
+    <!-- ADMIN — INSTITUTION DETAIL -->
+    <string name="admin_institution_detail_title">Institution Details</string>
+    <string name="admin_institution_remove">Remove Institution</string>
+    <string name="admin_institution_remove_confirm">Are you sure you want to remove the institution \"%1$s\"? This action cannot be undone.</string>
+    <string name="admin_institution_no_students">No registered students</string>
+    <string name="admin_institution_no_mentors">No registered advisors</string>
+    <string name="admin_institution_pending_title">Pending registration request</string>
+    <string name="admin_institution_pending_message">This institution is awaiting approval to access the platform.</string>
+    <string name="admin_institution_approve">Approve institution</string>
+    <string name="admin_institution_reject">Reject request</string>
+    <string name="admin_institution_submitted">Submitted %1$s</string>
+    <string name="admin_institution_badge_pending">Pending</string>
+    <string name="admin_institution_tab_approved">Approved</string>
+    <string name="admin_institution_tab_pending">Pending (%1$d)</string>
+    <string name="admin_institution_empty_approved">No approved institutions.</string>
+    <string name="admin_institution_empty_pending">No pending institutions.</string>
+
+    <!-- ADMIN — NOTIFICATION MODAL -->
+    <string name="admin_notification_pending_institutions">Pending institution registrations</string>
+
+    <!-- ==================== INSTITUTION ==================== -->
+    <string name="institution_internship_detail">Internship details</string>
+    <string name="institution_activity_recent">Recent Activity</string>
+
+    <!-- INSTITUTION — PENDING SCREEN -->
+    <string name="institution_pending_title">Account in review</string>
+    <string name="institution_pending_message">Your registration request has been submitted and is being analyzed by the LinkStage team. You will be notified as soon as a decision is made.</string>
+    <string name="institution_rejected_title">Request rejected</string>
+    <string name="institution_rejected_message">Your registration request was rejected. Please review your data and submit a new registration request.</string>
+    <string name="institution_rejected_button">Correct and resubmit</string>
+    <string name="institution_logout">Logout</string>
+
+    <!-- INSTITUTION — OFFERS -->
+    <string name="institution_offers_title">Manage Offers</string>
+    <string name="institution_create_offer">Create Offer</string>
+    <string name="institution_edit_offer">Edit Offer</string>
+    <string name="institution_offer_success">Offer published successfully!</string>
+
+    <!-- INSTITUTION — OFFER FORM -->
+    <string name="offer_form_step0_title">Step 1 of 3 — Details</string>
+    <string name="offer_form_step0_subtitle">Define the internship type and basic information.</string>
+    <string name="offer_form_step1_title">Step 2 of 3 — Requirements</string>
+    <string name="offer_form_step1_subtitle">Add requirements and logistics.</string>
+    <string name="offer_form_step2_title">Step 3 of 3 — Review</string>
+    <string name="offer_form_step2_subtitle">Review the offer before publishing.</string>
+    <string name="offer_form_publish_offer">Publish Offer</string>
+    <string name="offer_form_next">Next</string>
+    <string name="offer_form_internship_type">Internship type</string>
+    <string name="offer_form_company_hint">Company internship with external supervision.</string>
+    <string name="offer_form_school_hint">School internship with institutional supervision.</string>
+    <string name="offer_form_school_mentor_placeholder">Select a school mentor</string>
+    <string name="offer_form_company_mentor">Company Mentor</string>
+    <string name="offer_form_company_mentor_placeholder">Enter the company mentor name</string>
+    <string name="offer_form_title_placeholder">Enter the offer title</string>
+    <string name="offer_form_category_placeholder">Select a category</string>
+    <string name="offer_form_description_placeholder">Describe the internship offer…</string>
+    <string name="offer_form_requirements">Requirements</string>
+    <string name="offer_form_requirements_placeholder">List the requirements…</string>
+    <string name="offer_form_location_placeholder">E.g.: Viana do Castelo</string>
+    <string name="offer_form_deadline">Deadline</string>
+    <string name="checkpoint_deadline_placeholder">DD/MM/YYYY</string>
+    <string name="offer_form_deadline_error">Please enter a valid deadline date.</string>
+    <string name="offer_form_title_label">Title</string>
+    <string name="offer_form_review_type">Type</string>
+    <string name="offer_form_type_company">Company</string>
+    <string name="offer_form_type_school">School</string>
+    <string name="offer_form_school_mentor">School Mentor</string>
+    <string name="offer_form_not_assigned">Not assigned</string>
+    <string name="offer_form_company_mentor_short">Company Mentor</string>
+    <string name="offer_form_category">Category</string>
+    <string name="offer_form_location">Location</string>
+    <string name="offer_form_review_deadline">Deadline</string>
+    <string name="offer_form_review_requirements">Requirements</string>
+    <string name="offer_form_no_info">No information</string>
+    <string name="offer_form_description">Description</string>
+
+    <!-- INSTITUTION — EVALUATION -->
+    <string name="institution_eval_title">Institutional Evaluation</string>
+    <string name="institution_eval_submitted">Institutional Evaluation Submitted</string>
+    <string name="institution_eval_completed">Evaluation Completed</string>
+    <string name="institution_eval_submit_title">Submit evaluation?</string>
+    <string name="institution_eval_submit_body">Are you sure you want to submit the institutional evaluation? This action cannot be undone.</string>
+    <string name="institution_eval_submit_button">Submit</string>
+    <string name="institution_eval_observation">Observation</string>
+    <string name="institution_eval_observation_placeholder">Write here.</string>
+    <string name="institution_eval_grade_label">Grade (0–20)</string>
+    <string name="institution_eval_grade_placeholder">Ex: 15.5</string>
+    <string name="institution_eval_grade_error">Enter a value between 0.0 and 20.0 with at most one decimal place.</string>
+    <string name="institution_eval_submit_grade">Submit evaluation</string>
+
+    <!-- ==================== ADVISOR (ORIENTADOR) ==================== -->
+    <string name="advisor_students_title">Supervised students</string>
+    <string name="advisor_no_students">You have no supervised students.</string>
+    <string name="advisor_internships_title">Involved Internships</string>
+    <string name="advisor_no_internships">You are not involved in any internship.</string>
+    <string name="advisor_ends_at">Ends on %1$s</string>
+    <string name="advisor_evaluate_internship">Evaluate internship</string>
+    <string name="advisor_intern_student">Intern student</string>
+    <string name="advisor_student_detail_title">Student Details</string>
+    <string name="advisor_internship_detail_title">Internship Details</string>
+    <string name="advisor_tab_details">Details</string>
+    <string name="advisor_tab_work">Work</string>
+    <string name="advisor_tab_evaluate">Evaluate</string>
+    <string name="advisor_available_internships">Available Internships</string>
+    <string name="advisor_published_ago">Published 5h ago</string>
+
+    <!-- ADVISOR — STUDENT DETAIL -->
+    <string name="advisor_institution">Institution</string>
+    <string name="advisor_course">Course</string>
+    <string name="advisor_type_business">Company</string>
+    <string name="advisor_type_school">School</string>
+    <string name="advisor_student_count">%1$d students</string>
+    <string name="advisor_registered_ago">Registered %1$s ago</string>
+
+    <!-- ADVISOR — EVALUATION -->
+    <string name="advisor_eval_ready_message">All required evaluations have been submitted. You can now assign the final grade.</string>
+    <string name="advisor_eval_assign_grade">Assign Grade</string>
+    <string name="advisor_eval_pending_title">Evaluation Pending</string>
+    <string name="advisor_eval_pending_message">The evaluation process for this internship has not started yet.</string>
+    <string name="advisor_eval_partial_title">Evaluation in Progress</string>
+    <string name="advisor_eval_partial_message">Some evaluations have been submitted. Waiting for the remaining evaluators.</string>
+    <string name="advisor_eval_assign_title">Assign Final Grade</string>
+    <string name="advisor_eval_assign_body">Are you sure you want to assign the final grade of %1$s? This action cannot be undone.</string>
+    <string name="advisor_eval_assign_button">Assign</string>
+    <string name="advisor_eval_final_observation">Final Observation</string>
+    <string name="advisor_eval_final_grade_label">Final Grade</string>
+    <string name="advisor_eval_grade_placeholder">0–20</string>
+    <string name="advisor_eval_grade_error">Please enter a valid grade between 0 and 20.</string>
+    <string name="advisor_eval_completed">This internship has been completed with a final grade of %1$s.</string>
+    <string name="eval_role_company_responsible">Company Responsible</string>
+    <string name="eval_role_company_mentor">Company Mentor</string>
+    <string name="eval_role_institution">Institution</string>
+    <string name="eval_role_school_mentor_short">School Mentor</string>
+
+    <!-- ADVISOR — CHECKPOINT DETAIL -->
+    <string name="advisor_checkpoint_title">Checkpoint Details</string>
+    <string name="advisor_checkpoint_defined_by">Defined by</string>
+    <string name="advisor_checkpoint_delivery_date">Delivery date</string>
+    <string name="advisor_checkpoint_description">Description</string>
+    <string name="advisor_checkpoint_attachments">Attachments</string>
+    <string name="advisor_checkpoint_reviewed_by">Reviewed by</string>
+
+    <!-- ADVISOR — NOTIFICATIONS -->
+    <string name="notifications_title">Notifications</string>
+
+    <!-- ==================== REPORT SUCCESS ==================== -->
+    <string name="report_success_title">Report Submitted!</string>
+    <string name="report_success_message">Your internship has ended successfully. Wait for the final grade — you will receive a notification when it is available.</string>
+
+    <!-- ==================== NOTIFICATIONS SETTINGS ==================== -->
+    <string name="notif_disable_all">Disable all notifications</string>
+    <string name="notif_disable_subtitle">Temporarily silence alerts</string>
+    <string name="notif_section_applications">APPLICATION ALERTS</string>
+    <string name="notif_application_status">Application Status</string>
+    <string name="notif_application_status_sub">Alerts for accepted or rejected applications</string>
+    <string name="notif_advisor_assigned">Advisor Assigned</string>
+    <string name="notif_advisor_assigned_sub">Know when a mentor is assigned to you</string>
+    <string name="notif_section_communication">COMMUNICATION AND PROGRESS</string>
+    <string name="notif_new_messages">New Messages (Chat)</string>
+    <string name="notif_new_messages_sub">Notify when receiving messages from users</string>
+    <string name="notif_evaluation_completed">Evaluation Completed</string>
+    <string name="notif_evaluation_completed_sub">Alert when the final grade is available</string>
+    <string name="notif_section_activity">ACTIVITY LOG</string>
+    <string name="notif_daily_reminders">Daily Reminders</string>
+    <string name="notif_daily_reminders_sub">Remind to log new activities in the journal</string>
+    <string name="notif_silenced">Notifications are silenced</string>
+    <string name="notif_save_changes">Save Changes</string>
+
+    <!-- ==================== ADMIN DETAIL EXTRA ==================== -->
+    <string name="admin_detail_personal_info">Personal Information</string>
+    <string name="admin_detail_course">Course</string>
+    <string name="admin_detail_phone">Phone</string>
+    <string name="admin_detail_gpa">GPA</string>
+    <string name="admin_detail_registered">Registered</string>
+    <string name="admin_detail_gpa_values">%1$s values</string>
+    <string name="admin_detail_view_internship">View Internship Details</string>
+    <string name="admin_detail_applications_submitted">%1$d applications submitted</string>
+    <string name="admin_detail_recent_applications">Recent Applications</string>
+    <string name="admin_detail_department">Department</string>
+    <string name="admin_detail_active_students">Active students</string>
+    <string name="admin_detail_supervised_students">Supervised Students</string>
+    <string name="admin_detail_students_label">Students</string>
+    <string name="admin_detail_mentors_label">Advisors</string>
+    <string name="admin_detail_active_internships">Active internships</string>
+    <string name="admin_detail_contact_info">Contact Information</string>
+    <string name="admin_detail_email">Email</string>
+    <string name="admin_detail_website">Website</string>
+    <string name="admin_detail_location">Location</string>
+    <string name="admin_detail_recent_students">Recent Students</string>
+    <string name="admin_approve_title">Approve institution?</string>
+    <string name="admin_approve_body">Upon approval, \"%1$s\" will have immediate access to the LinkStage platform.</string>
+    <string name="admin_approve_button">Approve</string>
+    <string name="admin_reject_title">Reject request?</string>
+    <string name="admin_reject_body">\"%1$s\" will be notified of the rejection and may correct their data and resubmit the request.</string>
+    <string name="admin_reject_button">Reject</string>
+
+    <!-- ==================== INSTITUTION DETAIL EXTRA ==================== -->
+    <string name="institution_detail_mentor">Mentor</string>
+    <string name="institution_detail_status">Status</string>
+    <string name="institution_detail_start_date">Start Date</string>
+    <string name="institution_detail_end_date">End Date</string>
+    <string name="institution_detail_student">Student</string>
+    <string name="institution_detail_advisor">Advisor</string>
+    <string name="institution_detail_information">Information</string>
+    <string name="institution_detail_applications">Applications</string>
+    <string name="institution_detail_accept">Accept</string>
+    <string name="institution_detail_reject">Reject</string>
+
+    <!-- ==================== ORIENTADOR EXTRA ==================== -->
+    <string name="advisor_search_placeholder">Search…</string>
+
+    <!-- ==================== INTERNSHIP RESULT ==================== -->
+    <string name="result_internship_title">Internship Result</string>
+    <string name="result_back_home">Back to Home</string>
+    <string name="result_observations">Observations</string>
+    <string name="result_grade_values">%1$s values</string>
+    <string name="result_loading">Loading internship result…</string>
+    <string name="result_not_available">The internship result is not available.</string>
+
+    <!-- ==================== PRIVACY POLICY SECTIONS ==================== -->
+    <string name="privacy_section_1_title">1. Introduction</string>
+    <string name="privacy_section_1_content">Welcome to LinkStage. Your privacy is important to us. This policy explains how we collect, use and protect your personal data in accordance with the General Data Protection Regulation (GDPR).</string>
+    <string name="privacy_section_2_title">2. Data We Collect</string>
+    <string name="privacy_section_2_content">We collect data such as your name, email address, educational institution and professional information (in the case of students) to enable the use of platform features, such as internship applications and communication between users.</string>
+    <string name="privacy_section_3_title">3. Purpose of Processing</string>
+    <string name="privacy_section_3_content">Your data is used for:\n• User account management;\n• Facilitating the internship recruitment process;\n• Improving the application experience;\n• Complying with legal obligations.</string>
+    <string name="privacy_section_4_title">4. Data Sharing</string>
+    <string name="privacy_section_4_content">Your personal data is only shared with relevant entities (Institutions and Advisors) when you initiate an application or interaction on the platform. We do not sell your data to third parties.</string>
+    <string name="privacy_section_5_title">5. Your Rights</string>
+    <string name="privacy_section_5_content">Under the GDPR, you have the right to:\n• Access your data;\n• Rectify incorrect information;\n• Request the deletion of your data;\n• Object to the processing thereof.</string>
+    <string name="privacy_section_6_title">6. Contact</string>
+    <string name="privacy_section_6_content">For any privacy-related questions or to exercise your rights, users may contact the project coordination through their respective Educational Institution.</string>
+
+    <!-- ==================== INSTITUTION INTERNSHIP DETAIL ==================== -->
+    <string name="institution_create_checkpoint">Create checkpoint</string>
+    <string name="institution_view_activities">View activities</string>
+    <string name="institution_origin">Origin</string>
+    <string name="institution_origin_school">School</string>
+    <string name="institution_origin_company">Company</string>
+    <string name="institution_school_mentor">School advisor</string>
+    <string name="institution_to_be_defined">To be defined</string>
+    <string name="institution_company_mentor">Company advisor</string>
+    <string name="institution_start_date_label">Start date</string>
+    <string name="institution_progress">Progress</string>
+    <string name="institution_final_report_label">Final report:</string>
+    <string name="institution_status_pending">Pending</string>
+
+    <!-- ==================== MENTOR ASSIGNED SUCCESS ==================== -->
+    <string name="mentor_success_advisor_label">Advisor:</string>
+    <string name="mentor_success_new_status">New status:</string>
+    <string name="mentor_success_monitoring">In monitoring</string>
+    <string name="mentor_success_next_step">Next step:</string>
+    <string name="mentor_success_next_step_message">Monitor the internship and check activities</string>
+    <string name="mentor_success_view_internship">View internship</string>
+    <string name="mentor_success_back_advisors">Back to advisors</string>
+
+    <!-- ==================== MENTOR DETAIL INSTITUTION ==================== -->
+    <string name="mentor_detail_tab_details">Details</string>
+    <string name="mentor_detail_tab_skills">Skills</string>
+    <string name="mentor_detail_tab_manage">Manage</string>
+    <string name="mentor_detail_save_note_title">Save note?</string>
+    <string name="mentor_detail_save_note_body">Are you sure you want to save the internal note?</string>
+    <string name="mentor_detail_area">Area</string>
+    <string name="mentor_detail_internal_note">Internal Note</string>
+    <string name="mentor_detail_note_info">Note visible only to the institution. Use for internal annotations.</string>
+    <string name="mentor_detail_note_placeholder">Write an internal note…</string>
+    <string name="mentor_detail_no_note">No internal note.</string>
+    <string name="mentor_detail_view_assigned">View assigned internships</string>
+    <string name="mentor_detail_technical_skills">Technical skills</string>
+    <string name="mentor_detail_supervision_areas">Supervision areas</string>
+    <string name="mentor_detail_reassign_title">Reassign internship?</string>
+    <string name="mentor_detail_reassign_body">Are you sure you want to transfer the supervision to another advisor?</string>
+    <string name="mentor_detail_assign_internship">Assign to internship</string>
+    <string name="mentor_detail_assign_internship_sub">Associate this advisor with a new internship</string>
+    <string name="mentor_detail_reassign">Reassign internship</string>
+    <string name="mentor_detail_reassign_sub">Transfer supervision to another instructor</string>
+    <string name="mentor_detail_view_assigned_sub">Check the list of supervised internships</string>
+    <string name="mentor_detail_check_availability">Check availability</string>
+    <string name="mentor_detail_check_availability_sub">View the advisor\'s declared availability</string>
+    <string name="mentor_detail_send_message_sub">Communicate about supervision</string>
+    <string name="mentor_detail_assign_student">Assign to a student</string>
+    <string name="mentor_detail_assign_student_sub">Associate this advisor with a specific student</string>
+
+    <!-- ==================== HOME ADMIN ==================== -->
+    <string name="admin_home_pending_title">New Pending Institutions</string>
+    <string name="admin_home_pending_message">There are %1$d institution(s) awaiting approval. Please review and approve or reject the registration requests.</string>
+    <string name="admin_home_review_requests">Review requests</string>
+    <string name="admin_home_greeting">Hello, Admin</string>
+    <string name="admin_home_welcome">Welcome to the administration panel.</string>
+    <string name="admin_home_pending_approvals">Pending approvals</string>
+    <string name="admin_home_pending_approvals_message">%1$d institution(s) await(s) approval.</string>
+    <string name="admin_home_registered_ago">Registered %1$s ago</string>
+
+    <!-- ==================== HOME INSTITUTION ==================== -->
+    <string name="institution_home_completed_title">Internship Completed</string>
+    <string name="institution_home_completed_message">The internship has been completed. The institutional evaluation is pending. Please submit your evaluation so the process can proceed.</string>
+    <string name="institution_home_greeting">Hello, %1$s.</string>
+    <string name="institution_home_welcome">Welcome to your management panel.</string>
+    <string name="institution_home_eval_pending">Evaluation pending</string>
+    <string name="institution_home_eval_pending_message">The internship has been completed and awaits the institutional evaluation.</string>
+    <string name="institution_home_summary">Summary</string>
+    <string name="institution_home_active_offers">Active offers</string>
+    <string name="institution_home_applications">Applications</string>
+    <string name="institution_home_active_internships">Active internships</string>
+    <string name="institution_home_pending_eval">Pending evaluation</string>
+    <string name="institution_home_pending_actions">Pending actions</string>
+    <string name="institution_home_applications_waiting">%1$d applications await decision</string>
+    <string name="institution_home_applications_waiting_sub">Review and make a decision on recent applications.</string>
+    <string name="institution_home_no_mentor">%1$d internships need an advisor</string>
+    <string name="institution_home_no_mentor_sub">Assign an advisor for academic supervision.</string>
+    <string name="institution_home_no_pending">No pending actions. Everything is in order.</string>
+    <string name="institution_home_recent_offers">Recent Offers</string>
+    <string name="institution_home_recent_messages">Recent Messages</string>
+    <string name="institution_home_no_offers">No offers have been created yet.</string>
+    <string name="institution_home_no_messages">No messages at the moment.</string>
+    <string name="institution_home_favorite">Favorite</string>
+
+    <!-- ==================== HOME ADVISOR ==================== -->
+    <string name="advisor_home_evals_submitted_title">Evaluations Submitted</string>
+    <string name="advisor_home_evals_submitted_company">The company and company advisor have already submitted their evaluations. You can now review the evaluations and assign the final grade to the student.</string>
+    <string name="advisor_home_eval_submitted_school">The school institution has already submitted its evaluation. You can now review it and assign the final grade to the student.</string>
+    <string name="advisor_home_view_evaluations">View evaluations</string>
+    <string name="advisor_home_final_grade_pending">Final grade pending</string>
+    <string name="advisor_home_your_internships">Your internships</string>
+    <string name="advisor_home_supervised_students">Supervised students</string>
+    <string name="advisor_home_no_messages">No messages yet.</string>
+
+    <!-- ==================== STUDENTS ADMIN ==================== -->
+    <string name="admin_users_search_students">Search students…</string>
+    <string name="admin_users_search_advisors">Search advisors…</string>
+    <string name="admin_users_in_internship">In internship</string>
+    <string name="admin_users_no_internship">No internship</string>
+    <string name="admin_users_applications">%1$d applications</string>
+    <string name="admin_users_active">active</string>
+    <string name="admin_users_students_label">students</string>
+    <string name="admin_users_advisors_label">advisors</string>
+    <string name="admin_users_filter_status">Status</string>
+    <string name="admin_users_filter_all">All</string>
+    <string name="admin_users_filter_all_institutions">All</string>
+    <string name="admin_users_add_student_title">Add Student</string>
+    <string name="admin_users_add_advisor_title">Add Advisor</string>
+    <string name="admin_users_name">Name</string>
+    <string name="admin_users_students_count">%1$d students</string>
+    <string name="admin_tab_students">Students</string>
+    <string name="admin_tab_mentors">Advisors</string>
+    <string name="admin_users_add_student">Add Student</string>
+    <string name="admin_users_add_mentor">Add Advisor</string>
+    <string name="admin_users_student_label">students</string>
+    <string name="admin_users_mentor_label">advisors</string>
+    <string name="student_status_internship">In internship</string>
+    <string name="student_status_no_internship">No internship</string>
+    <string name="admin_users_applications_count">%1$d applications</string>
+    <string name="admin_users_active_students_count">%1$d students</string>
+    <string name="admin_filter_all">All</string>
+    <string name="admin_filter_status">Status</string>
+    <string name="admin_inst_filter_institution">Institution</string>
+    <string name="admin_inst_add_email">Email</string>
+    <string name="admin_users_add_mentor_title">Add Advisor</string>
+    <string name="mock_institution_estg">ESTG-IPVC</string>
+    <string name="mock_institution_ese">ESE-IPVC</string>
+    <string name="mock_institution_esdl">ESDL-IPVC</string>
+    <string name="mock_application_designer">UI/UX Designer</string>
+    <string name="mock_company_viana">Viana S.T.Arts</string>
+    <string name="application_status_pending">Pending</string>
+    <string name="mock_application_frontend">Frontend Developer</string>
+    <string name="mock_company_pingodoce">Pingo Doce</string>
+    <string name="application_status_reviewing">Reviewing</string>
+    <string name="offer_location_label">Location</string>
+    <string name="offer_duration_label">Duration</string>
+    <string name="offer_type_label">Type</string>
+
+    <!-- ==================== INSTITUTIONS ADMIN ==================== -->
+    <string name="admin_inst_search">Search institutions…</string>
+    <string name="admin_inst_add">Add Institution</string>
+    <string name="admin_inst_empty_approved">No approved institutions.</string>
+    <string name="admin_inst_empty_pending">No pending registration requests.</string>
+    <string name="admin_inst_students_count">%1$d students</string>
+    <string name="admin_inst_internships_count">%1$d internships</string>
+    <string name="admin_inst_submitted">Submitted %1$s</string>
+    <string name="admin_inst_filter_type">Type</string>
+    <string name="admin_inst_filter_all">All</string>
+    <string name="admin_inst_filter_school">School Institution</string>
+    <string name="admin_inst_filter_company">Corporate Institution</string>
+    <string name="admin_inst_add_title">Add Institution</string>
+    <string name="admin_inst_add_code">Code</string>
+    <string name="admin_inst_add_type">Type</string>
+    <string name="admin_inst_add_button">Add</string>
+    <string name="admin_temp_password_title">Temporary Password</string>
+    <string name="admin_temp_password_message">Account created for %1$s. Share this temporary password with the user so they can sign in and set a new one:</string>
+    <string name="admin_users_student_number">Student Number</string>
+
+    <!-- ==================== EVALUATION NOTIFICATION ==================== -->
+    <string name="eval_notification_close">Close</string>
+
+    <!-- ==================== COMMON SHARED ==================== -->
+    <string name="common_search_placeholder">Search…</string>
+    <string name="common_details">Details</string>
+    <string name="common_skills">Skills</string>
+    <string name="common_manage">Manage</string>
+    <string name="common_download">Download</string>
+    <string name="common_close_label">Close</string>
+
+    <!-- ==================== RECENT ACTIVITY INSTITUTION ==================== -->
+    <string name="activity_recent_title">Recent Activity</string>
+    <string name="activity_tab_internships">Internships</string>
+    <string name="activity_tab_advisors">Advisors</string>
+    <string name="activity_fab_associate">Associate Internship</string>
+    <string name="activity_fab_add_advisor">Add Advisor</string>
+    <string name="activity_filter_internships_title">Filters — Internships</string>
+    <string name="activity_filter_advisors_title">Filters — Advisors</string>
+    <string name="activity_filter_advisor_label">Advisor</string>
+    <string name="activity_advisor_with_name">Advisor: %1$s</string>
+    <string name="activity_advisor_undefined">Advisor: To be defined</string>
+    <string name="activity_progress_completed">%1$d%% completed</string>
+    <string name="activity_institution_label">Institution: %1$s</string>
+    <string name="activity_create_mentor_title">Create advisor account?</string>
+    <string name="activity_create_mentor_body">An account will be created for %1$s with platform access. The advisor will be required to change the password on first login.</string>
+    <string name="activity_create_mentor_confirm">Create</string>
+    <string name="activity_add_advisor_title">Add Advisor</string>
+    <string name="activity_full_name">Full name</string>
+    <string name="activity_name_placeholder">E.g.: Prof. João Silva</string>
+    <string name="activity_institutional_email">Institutional email</string>
+    <string name="activity_email_placeholder">E.g.: joao.silva@ipvc.pt</string>
+    <string name="activity_department_area">Department / Area</string>
+    <string name="activity_department_placeholder">E.g.: Computer Science</string>
+    <string name="activity_initial_password">Initial password</string>
+    <string name="activity_password_change_info">The advisor will be required to change this password on first login.</string>
+    <string name="activity_confirm_password">Confirm password</string>
+    <string name="activity_create_account">Create account</string>
+    <string name="activity_error_required">Required field.</string>
+    <string name="activity_error_email">Invalid email.</string>
+    <string name="activity_error_password_length">Minimum 8 characters.</string>
+    <string name="activity_error_password_mismatch">Passwords do not match.</string>
+
+    <!-- ==================== APPLICATION DETAIL INSTITUTION ==================== -->
+    <string name="app_detail_title">Applications</string>
+    <string name="app_detail_gpa">Current GPA (0–20)</string>
+    <string name="app_detail_personal_statement">Personal Statement</string>
+    <string name="app_detail_personal_statement_desc">Brief introduction of the candidate and their motivation for the position.</string>
+    <string name="app_detail_technical_skills">Technical skills</string>
+    <string name="app_detail_motivation_letter">Motivation letter</string>
+    <string name="app_detail_no_motivation_letter">No motivation letter attached.</string>
+    <string name="app_detail_update_title">Update application?</string>
+    <string name="app_detail_update_body">Are you sure you want to mark this application as %1$s?</string>
+    <string name="app_detail_update_button">Update status</string>
+    <string name="app_detail_current_status">Current status:</string>
+    <string name="app_detail_select_decision">Select a decision for this application.</string>
+    <string name="app_detail_accepted">Accepted</string>
+    <string name="app_detail_accepted_desc">Mark this application as accepted.</string>
+    <string name="app_detail_rejected">Rejected</string>
+    <string name="app_detail_rejected_desc">Mark this application as rejected.</string>
+    <string name="app_detail_rejection_reason_label">Rejection reason</string>
+    <string name="app_detail_rejection_reason_placeholder">Enter the rejection reason…</string>
+    <string name="app_detail_info_notice">The decision will only be recorded when the application is closed.</string>
+    <string name="app_detail_status_accepted">Accepted</string>
+    <string name="app_detail_status_rejected">Rejected</string>
+    <string name="app_detail_status_pending">Pending</string>
+    <string name="app_detail_status_label_accepted">accepted</string>
+    <string name="app_detail_status_label_rejected">rejected</string>
+    <string name="app_detail_status_label_pending">pending</string>
+    <string name="app_detail_institution_label">Institution: %1$s</string>
+    <string name="app_detail_no_applications">No applications found.</string>
+
+    <!-- ==================== OFFER DETAIL INSTITUTION ==================== -->
+    <string name="offer_detail_close_title">Close offer?</string>
+    <string name="offer_detail_close_body">The offer will be invisible to new candidates. You can reopen it later.</string>
+    <string name="offer_detail_close_confirm">Close</string>
+    <string name="offer_detail_delete_title">Remove offer?</string>
+    <string name="offer_detail_delete_body">This action is irreversible. All associated applications will be removed.</string>
+    <string name="offer_detail_delete_confirm">Remove</string>
+    <string name="offer_detail_about">About the company</string>
+    <string name="offer_detail_responsibilities">Responsibilities</string>
+    <string name="offer_detail_requirements">Requirements</string>
+    <string name="offer_detail_benefits">Benefits</string>
+    <string name="offer_detail_location">Location</string>
+    <string name="offer_detail_duration">Duration</string>
+    <string name="offer_detail_type">Type</string>
+    <string name="offer_detail_edit">Edit offer</string>
+    <string name="offer_detail_close">Close offer</string>
+    <string name="offer_detail_remove">Remove offer</string>
+    <string name="offer_detail_tab_applications">Applications</string>
+
+    <!-- ==================== MENTOR STUDENT DETAIL ==================== -->
+    <string name="student_detail_title">Student Details</string>
+    <string name="student_detail_tab_work">Work</string>
+    <string name="student_detail_tab_evaluate">Evaluate</string>
+    <string name="student_detail_skills">Student Skills</string>
+    <string name="student_detail_internship_not_completed">Internship not completed</string>
+    <string name="student_detail_internship_not_completed_desc">The internship has not been completed yet. Evaluation will be available when the internship ends.</string>
+    <string name="student_detail_eval_in_progress">Evaluation in progress</string>
+    <string name="student_detail_eval_waiting">Awaiting submission of all company evaluations.</string>
+    <string name="student_detail_all_submitted">All evaluations have been submitted. You can now assign the final grade.</string>
+    <string name="student_detail_final_observation">Final observation</string>
+    <string name="student_detail_final_grade">Final grade (0–20)</string>
+    <string name="student_detail_assign_final_title">Assign final grade?</string>
+    <string name="student_detail_assign_final_body">By assigning a final grade of %1$s to the student, this action cannot be reversed. Are you sure you want to continue?</string>
+    <string name="student_detail_assign_final_confirm">Assign</string>
+    <string name="student_detail_assign_final_button">Assign final grade</string>
+    <string name="student_detail_eval_completed">Evaluation completed — The final grade of %1$s was assigned successfully.</string>
+
+    <!-- ==================== MENTOR INTERNSHIP DETAIL ==================== -->
+    <string name="mentor_internship_detail_title">Internship Details</string>
+    <string name="mentor_internship_evaluate">Evaluate internship</string>
+    <string name="mentor_internship_student_section">Intern student</string>
+    <string name="mentor_internship_more">More</string>
+
+    <!-- ==================== NOTIFICATIONS INSTITUTION ==================== -->
+    <string name="notif_title">Notifications</string>
+    <string name="notif_inst_section_applications">APPLICATIONS</string>
+    <string name="notif_inst_section_communication">COMMUNICATION</string>
+    <string name="notif_application_submitted">Application submitted</string>
+    <string name="notif_application_submitted_desc">Notify when receiving applications for offers</string>
+    <string name="notif_new_messages_desc">Notify when receiving messages from users</string>
+
+    <!-- ==================== NOTIFICATIONS ADVISOR ==================== -->
+    <string name="notif_section_internship_management">INTERNSHIP MANAGEMENT</string>
+    <string name="notif_advisor_assigned_desc">You have been assigned to supervise a student\'s internship</string>
+    <string name="notif_new_activity">New Activity Registered</string>
+    <string name="notif_new_activity_desc">A student registered a new activity in the diary</string>
+
+    <!-- ==================== STATUS LABELS ==================== -->
+    <string name="status_in_progress">In progress</string>
+    <string name="status_pending_review">Pending review</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_no_mentor">No advisor</string>
+    <string name="mentor_status_active">Active</string>
+    <string name="mentor_status_inactive">Inactive</string>
+    <string name="mentor_status_no_students">No internships</string>
+
+    <!-- ==================== OFFERS INSTITUTION SCREEN ==================== -->
+    <string name="offers_manage_title">Offer Management</string>
+    <string name="offers_create">Create offer</string>
+    <string name="offers_published">Published %1$s</string>
+    <string name="offers_delete_title">Delete Offer?</string>
+    <string name="offers_delete_body">Are you sure you want to delete the offer \"%1$s\"? This action cannot be undone.</string>
+    <string name="offers_delete_confirm">Delete</string>
+    <string name="offers_filter_work_model">Work model</string>
+    <string name="offers_filter_area">Area</string>
+    <string name="offers_filter_location">Location</string>
+    <string name="offer_filter_full_time">Full Time</string>
+    <string name="offer_filter_part_time">Part Time</string>
+    <string name="offer_filter_remote">Remote</string>
+    <string name="offer_filter_hybrid">Hybrid</string>
+    <string name="offers_loading">Loading offers…</string>
+    <string name="offers_empty">No published offers available.</string>
+
+
+    <!-- ==================== ASSIGN MENTOR ==================== -->
+    <string name="assign_mentor_confirm_title">Assign advisor?</string>
+    <string name="assign_mentor_confirm_body">Are you sure you want to assign %1$s to this internship?</string>
+    <string name="assign_mentor_confirm_button">Assign</string>
+    <string name="assign_mentor_available_label">Available advisors</string>
+    <string name="assign_mentor_available">Available!</string>
+    <string name="assign_mentor_unavailable">Unavailable</string>
+    <string name="assign_mentor_remove_selection">Remove selection</string>
+    <string name="assign_mentor_select">Select advisor</string>
+
+    <!-- ==================== OFFER SUCCESS ==================== -->
+    <string name="offer_success_created">Internship offer\ncreated successfully!</string>
+    <string name="offer_success_updated">Internship offer\nupdated successfully!</string>
+    <string name="offer_success_back">Back</string>
+
+    <!-- ==================== COMMON EXTRA ==================== -->
+    <string name="common_edit">Edit</string>
+    <string name="common_delete_label">Delete</string>
+    <string name="filter_all">All</string>
+    <string name="common_confirm">Confirm</string>
+
+    <!-- ==================== OFFER FORM EXTRA ==================== -->
+    <string name="offer_form_create_title">Create Offer</string>
+    <string name="offer_form_edit_title">Edit Offer</string>
+    <string name="offer_form_publish_title">Publish offer?</string>
+    <string name="offer_form_save_title">Save changes?</string>
+    <string name="offer_form_publish_body">The offer will be published and visible to students.</string>
+    <string name="offer_form_edit_body">Are you sure you want to save the changes to this offer?</string>
+    <string name="offer_form_publish_button">Publish</string>
+
+    <!-- ==================== CHECKPOINT DIALOG ==================== -->
+    <string name="checkpoint_create_title">Create Checkpoint</string>
+    <string name="checkpoint_title_label">Title</string>
+    <string name="checkpoint_title_placeholder">Enter the checkpoint title</string>
+    <string name="checkpoint_title_error">Title is required.</string>
+    <string name="checkpoint_desc_label">Description</string>
+    <string name="checkpoint_desc_placeholder">Brief description.</string>
+    <string name="checkpoint_deadline_label">Delivery date</string>
+    <string name="checkpoint_deadline_error">Please enter a valid date.</string>
+    <string name="checkpoint_info">This checkpoint will be visible to the student and must be completed by the deadline.</string>
+    <string name="checkpoint_create_button">Create</string>
+
+    <!-- ==================== EVALUATION SUBMITTED ==================== -->
+    <string name="eval_submitted_title">Evaluation Submitted!</string>
+    <string name="eval_submitted_message">Your evaluation has been successfully submitted. Thank you for your contribution.</string>
+    <string name="eval_observation_label">Observation</string>
+    <string name="eval_observation">Observation</string>
+    <string name="eval_no_observation">No observation provided.</string>
+    <string name="eval_next_step">Next step</string>
+    <string name="eval_next_step_message">Wait for the remaining evaluators to submit their evaluations.</string>
+    <string name="eval_view_internship">View internship</string>
+    <string name="eval_back_home">Back to Home</string>
+
+    <!-- ==================== FINAL GRADE SUBMITTED ==================== -->
+    <string name="final_grade_title">Final Grade Assigned!</string>
+    <string name="final_grade_message">The final grade has been successfully assigned. The student will be notified.</string>
+    <string name="final_grade_label">Final Grade</string>
+    <string name="final_grade_values">%1$s values</string>
+    <string name="final_grade_completed">Completed</string>
+    <string name="final_grade_summary">Evaluation Summary</string>
+    <string name="eval_role_school_mentor">School Mentor</string>
+    <string name="final_grade_view_student">View student</string>
+
+    <!-- ==================== ASSIGN MENTOR EXTRA ==================== -->
+    <string name="assign_mentor_title">Assign Advisor</string>
+    <string name="mentor_assigned_success">Advisor assigned successfully!</string>
+
+    <!-- ==================== DISCOVER EXTRA ==================== -->
+    <string name="discover_published_ago">Published %1$s</string>
+
+    <!-- ==================== UPDATE PASSWORD EXTRA ==================== -->
+    <string name="update_password_new_placeholder">Enter your new password</string>
+    <string name="update_password_confirm_placeholder">Confirm your new password</string>
+
+    <!-- ==================== DATE FORMATTING ==================== -->
+    <string name="date_format_full">%2$s %1$d, %3$d</string>
+    <string-array name="months_full">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="months_short">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <!-- ==================== MOCK DATA ==================== -->
+    <string name="mock_web_dev_internship">Web Development Internship</string>
+    <string name="mock_checkpoint_1">Checkpoint 1</string>
+    <string name="mock_checkpoint_2">Checkpoint 2</string>
+    <string name="mock_checkpoint_desc_mockups">Focused on designing the first mockups.</string>
+    <string name="mock_req_ppt">PPT with work completed.</string>
+    <string name="mock_req_report_updated">Report updated to current point.</string>
+    <string name="mock_req_additional_docs">Additional relevant documentation.</string>
+    <string name="mock_interim_report">Interim Report</string>
+    <string name="mock_interim_report_desc">Submit report with progress to date.</string>
+    <string name="mock_req_report_updated_short">Report updated.</string>
+    <string name="mock_req_additional_docs_short">Additional documentation.</string>
+    <string name="mock_ppt_checkpoint_file">PPT checkpoint</string>
+    <string name="mock_report_updated_file">Updated report</string>
+    <string name="mock_today_at">Today at %1$s</string>
+    <string name="mock_yesterday_at">Yesterday at %1$s</string>
+    <string name="mock_product_designer">Product Designer</string>
+    <string name="mock_eval_excellent">Excellent technical performance.</string>
+    <string name="mock_eval_good_teamwork">Good teamwork.</string>
+    <string name="mock_company_desc_continente">Shopping store for the wealthy, looking for an intern.</string>
+    <string name="mock_company_desc_uaveiro">The University of Aveiro is a public higher education institution known for quality research and innovation.</string>
+    <string name="mock_resp_prototyping">Prototype the web application.</string>
+    <string name="mock_resp_collaborate">Collaborate with the team to share skills.</string>
+    <string name="mock_resp_dashboards">Develop the dashboard creation system.</string>
+    <string name="mock_resp_elearning">Develop interfaces for e-learning platform.</string>
+    <string name="mock_resp_design_thinking">Participate in design thinking sessions.</string>
+    <string name="mock_req_figma">Experience with Figma and interactive prototyping.</string>
+    <string name="mock_req_portfolio">UI portfolio for demonstration.</string>
+    <string name="mock_req_english">Excellent written and verbal communication in English.</string>
+    <string name="mock_req_user_centered">Knowledge of user-centered design.</string>
+    <string name="mock_req_prototyping_tools">Experience with prototyping tools.</string>
+    <string name="mock_benefit_transport">Public Transport Pass</string>
+    <string name="mock_benefit_mentoring">Mentoring Program</string>
+    <string name="mock_benefit_competitive">Competitive Market</string>
+    <string name="mock_benefit_certificate">Internship Certificate</string>
+    <string name="mock_benefit_labs">Lab Access</string>
+    <string name="mock_duration_6months">6 Months</string>
+    <string name="mock_duration_4months">4 Months</string>
+    <string name="mock_type_remote">Remote</string>
+    <string name="mock_type_onsite">On-site</string>
+    <string name="mock_time_2h_ago">2h ago</string>
+    <string name="mock_time_3h_ago">3h ago</string>
+    <string name="mock_time_3d_ago">3d ago</string>
+    <string name="mock_time_2w_ago">2w ago</string>
+    <string name="mock_time_1w_ago">1w ago</string>
+    <string name="mock_skill_pedagogy">Pedagogy</string>
+    <string name="mock_skill_classroom_mgmt">Classroom Management</string>
+    <string name="mock_skill_communication">Communication</string>
+    <string name="mock_course_cs">Computer Engineering</string>
+    <string name="mock_course_education">Education</string>
+    <string name="mock_course_basic_education">Basic Education</string>
+    <string name="mock_time_1d_ago">1d ago</string>
+    <string name="mock_time_2d_ago">2d ago</string>
+    <string name="mock_time_1h_ago">1h ago</string>
+    <string name="mock_time_30m_ago">30m ago</string>
+    <string name="mock_department_cs">Computer Science</string>
+    <string name="mock_department_education">Education</string>
+    <string name="mock_mentor_note_carvalho">Advisor with extensive experience in mobile projects. Available for new internships from September.</string>
+    <string name="mock_skill_research">Research</string>
+    <string name="mock_skill_statistics">Statistics</string>
+    <string name="mock_area_basic_education">Basic Education</string>
+    <string name="mock_area_didactics">Didactics</string>
+    <string name="mock_area_educational_research">Educational Research</string>
+    <string name="mock_fullstack_developer">Full-Stack Developer</string>
+    <string name="mock_personal_statement_generic">Candidate\'s personal statement.</string>
+    <string name="mock_personal_statement_short">Personal statement.</string>
+    <string name="mock_motivation_letter_title">Motivation letter.</string>
+    <string name="mock_motivation_letter_body">Content of the candidate\'s motivation letter.</string>
+    <string name="mock_motivation_letter_body_short">Letter content.</string>
 </resources>

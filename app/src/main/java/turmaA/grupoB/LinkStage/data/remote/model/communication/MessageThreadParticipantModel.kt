@@ -10,7 +10,7 @@ data class MessageThreadParticipantModel(
     @SerialName("thread_id")
     val threadId: String,
 
-    @SerialName("user-id")
+    @SerialName("user_id")
     val userId: String,
 
     @SerialName("created_at")

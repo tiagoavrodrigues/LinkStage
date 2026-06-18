@@ -5,7 +5,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 enum class InternshipStatus {
-    @SerialName("PENDING_SUPERVIZOR")
+    @SerialName("PENDING_SUPERVISOR")
     PENDING_SUPERVISOR,
 
     @SerialName("IN_PROGRESS")
@@ -15,5 +15,8 @@ enum class InternshipStatus {
     COMPLETED,
 
     @SerialName("EVALUATED")
-    EVALUATED
+    EVALUATED,
+
+    @SerialName("CANCELLED")
+    CANCELED
 }

@@ -22,6 +22,9 @@ data class ActivityLogModel(
     val type: String? = null,
     val location: String? = null,
 
+    @SerialName("attachment_url")
+    val attachmentUrl: String? = null,
+
     @SerialName("created_at")
     val createdAt: String
 )

@@ -7,6 +7,16 @@ import kotlinx.coroutines.runBlocking
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.Assert.assertThrows
+import turmaA.grupoB.LinkStage.data.repository.application.ApplicationRepository
+import turmaA.grupoB.LinkStage.data.repository.communication.CommunicationRepository
+import turmaA.grupoB.LinkStage.data.repository.evaluation.EvaluationRepository
+import turmaA.grupoB.LinkStage.data.repository.institution.InstitutionRepository
+import turmaA.grupoB.LinkStage.data.repository.internship.InternshipRepository
+import turmaA.grupoB.LinkStage.data.repository.offer.OfferRepository
+import turmaA.grupoB.LinkStage.data.repository.profile.ProfileRepository
+import turmaA.grupoB.LinkStage.data.repository.report.ReportRepository
+import turmaA.grupoB.LinkStage.data.repository.student.StudentRepository
+import turmaA.grupoB.LinkStage.data.repository.supervisor.SupervisorRepository
 
 @RunWith(AndroidJUnit4::class)
 class RepositoryIntegrationTest {

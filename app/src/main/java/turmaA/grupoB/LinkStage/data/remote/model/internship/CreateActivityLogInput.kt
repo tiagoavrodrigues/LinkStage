@@ -6,7 +6,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class CreateActivityLogInput(
     @SerialName("internship_id")
-    val intershipId: String,
+    val internshipId: String,
 
     @SerialName("student_id")
     val studentId: String,
@@ -20,5 +20,8 @@ data class CreateActivityLogInput(
 
     val type: String? = null,
 
-    val location: String? = null
+    val location: String? = null,
+
+    @SerialName("attachment_url")
+    val attachmentUrl: String? = null,
 )
